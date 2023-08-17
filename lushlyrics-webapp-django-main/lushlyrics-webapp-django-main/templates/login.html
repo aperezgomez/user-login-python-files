@@ -42,6 +42,7 @@
                              text-align:center;">Username or password invalid</span>
                 {% endif %}
                 <button class='btn btn_log_in' type="submit">Log in</button>
+                <a href="{% url 'password_reset' %}" style="display:block; text-align:center; margin-top:10px;">Forgot your password?</a>
                 <div class="divider"></div>
                 <p class='label center-align'>Don't have an account?</p>
             <a class='btn btn_sign_up' href="/signup">Sign Up for Lushlyrics</a>
